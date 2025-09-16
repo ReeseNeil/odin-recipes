@@ -1,7 +1,42 @@
-# odin-recipes
+# Recipe Website
 
-### Background
-Honestly, I have finished FreeCodeCamp's responsive web design years ago. I haven't coded anything at all for the subsequent years. However, I have decided to level up to a full stack developer and found out that The Odin Project has a complete roadmap for achieving that. Now I'm here, sort of speedrunning things, since I know a bit of CSS I tried to add it to my "Odin Recipe" work so that it looks better.  
+A simple recipe website created as part of [The Odin Project](https://www.theodinproject.com/) curriculum.  
+This project is focused on practicing **HTML semantics**, **CSS styling**, and the basics of building a multi-page site.
 
-### Learnings
-For the past few lessons I have learned about rel attribute for links and how some security issues can be mitigated.
+---
+
+## Features
+- Clean and responsive layout using **grid** and **flexbox**
+- Recipe cards with images, descriptions, and links
+- Hover effects for interactive elements
+
+---
+
+## Background
+This project is part of my journey through The Odin Project foundations.  
+I am **not a native English speaker**, so please excuse any grammar mistakes in the text or descriptions. My main focus here is learning and improving my **web development skills**, as well as building confidence in writing code and documentation.
+
+---
+
+## Technologies Used
+- HTML5
+- CSS3
+
+---
+
+## Preview
+![Screenshot of the Odin Recipe Homepage](./screenshot/homepage1.png)
+![Screenshot of the Resized Odin Recipe Homepage](./screenshot/homepage2.png)
+![Screenshot of a Recipe Page](./screenshot/recipe1.png)
+![Screenshot of a Resized Recipe Page](./screenshot/recipe2.png)
+![Screenshot of a Mobile Recipe Page](./screenshot/recipe3.png)
+
+---
+
+## Future Improvements
+- Add more recipes with structured data
+- Improve responsiveness for mobile devices
+- Apply more semantic HTML tags
+- Add interactivity with JavaScript (e.g., favorite button, search, filters)
+
+---
