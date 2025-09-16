@@ -1,0 +1,265 @@
+*,
+*::before,
+*::after {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Schoolbook-Regular';
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+body {
+    background-color: #fafafb;
+    font-size: 1.2rem;
+    color: #313335;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav,
+nav .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+nav {
+    padding: 20px;
+    background-color: white;
+    flex-direction: column;
+    border-bottom: 1px solid #5d6063;
+}
+
+nav a {
+    position: absolute;
+    right: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #5d6063;
+    padding: 8px 40px;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Harman-Retro';
+}
+
+.logo img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+.logo h3 {
+    font-family: 'Harman-Retro';
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+
+.content {
+    display: grid;
+    grid-template-columns: minmax(375px, 450px) minmax(auto, auto);
+    grid-template-rows: auto auto;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content .overview {
+    grid-row: 1 / span 1;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid #5d6063;
+    overflow: hidden;
+}
+
+.content .overview img {
+    width: 100%;
+}
+
+
+.content .overview .text {
+    padding: 20px;
+}
+
+.content .overview .text h2 {
+    font-family: 'Harman-Sans';
+}
+
+.content .overview .text .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content .overview .text .stats * {
+    font-size: 1rem;
+}
+
+.content .overview .text .description {
+    margin-bottom: 20px;
+}
+
+.content .overview .text .author * {
+    font-size: 1rem;
+}
+
+.content .ingredients {
+    grid-row: 2 / span 1;
+    background-color: rgb(228, 247, 178);
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #5d6063;
+}
+
+.content .ingredients ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content .procedure {
+    grid-row: 1 / span 2;
+    background: white;
+    padding: 20px;
+    border: 1px solid #5d6063;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .procedure .duration,
+.nutrition ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 12px;
+    border-bottom: 1px solid #5d6063;
+    padding: 20px;
+}
+
+.content .procedure .duration p {
+    max-width: 200px;
+    min-width: 150px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #5d6063;
+    border-radius: 12px;
+    font-size: 1rem;
+}
+
+.content .procedure .duration p span {
+    font-family: 'Rys-Latin';
+    font-size: 1.2rem;
+}
+
+.content .procedure h3 {
+    font-family: 'Harman-Retro';
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+@media (max-width: 1110px) {
+    .overview {
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column: 1;
+    }
+
+    .ingredients {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .procedure {
+        grid-row: 2;
+        grid-column: 1;
+    }
+}
+
+.content .procedure .directions {
+    margin-bottom: 32px;
+}
+
+.content .procedure .directions ul h4 {
+    font-family: 'Harman-Retro';
+    margin-bottom: 8px;
+}
+
+.content .procedure .directions ul li {
+    margin-bottom: 20px;
+}
+
+.content .procedure .nutrition ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.content .procedure .nutrition ul li .metric {
+    font-family: 'Rys-Latin';
+    font-size: 1.2rem;
+}
+
+.nutrition {
+    margin-top: auto;
+    border-top: 1px solid #5d6063;
+    padding: 20px 0px;
+}
+
+.nutrition h3 {
+    margin-bottom: 0 !important;
+}
+
+.nutrition p {
+    line-height: 1.3;
+}
+
+.nutrition ul {
+    border: none;
+}
+
+
+@media (max-width: 1110px) {
+    .content .overview {
+        grid-row: 1 / span 1;
+        grid-column: 1;
+    }
+
+    .content .ingredients {
+        grid-row: 1 / span 1;
+        grid-column: 2 / span 1;
+    }
+
+    .content .procedure {
+        grid-row: 2;
+        grid-column: 1 / span 2;
+    }
+}
+
+@media (max-width: 750px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav a {
+        position: relative;
+        right: 0px;
+        margin-top: 20px;
+    }
+}

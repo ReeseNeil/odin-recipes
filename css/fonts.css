@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Schoolbook-Regular';
+    src: url(../fonts/CenturySchoolbook-Regular-webfont.2f3c6578.woff2);
+}
+
+@font-face {
+    font-family: 'Schoolbook-Italic';
+    src: url(../fonts/CenturySchoolbook-Italic-webfont.9aaece45.woff2);
+}
+
+@font-face {
+    font-family: 'Schoolbook-Bold';
+    src: url(../fonts/CenturySchoolbook-Bold-webfont.57ae4846.woff2);
+}
+
+@font-face {
+    font-family: 'Harman-Simple';
+    src: url(../fonts/Harman-Simple-webfont.1478a69a.woff2);
+}
+
+@font-face {
+    font-family: 'Harman-Retro';
+    src: url(../fonts/Harman-Retro-webfont.46246e6e.woff2);
+}
+
+@font-face {
+    font-family: 'Harman-Sans';
+    src: url(../fonts/Harman-Sans-webfont.d148c007.woff2);
+}
+
+@font-face {
+    font-family: 'Rys-Latin';
+    src: url(../fonts/RysLatinModernMono.30a6843d.woff);
+}
