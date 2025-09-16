@@ -25,11 +25,11 @@ I am **not a native English speaker**, so please excuse any grammar mistakes in 
 ---
 
 ## Preview
-![Screenshot of the Odin Recipe Homepage](./screenshot/homepage1.png)
-![Screenshot of the Resized Odin Recipe Homepage](./screenshot/homepage2.png)
-![Screenshot of a Recipe Page](./screenshot/recipe1.png)
-![Screenshot of a Resized Recipe Page](./screenshot/recipe2.png)
-![Screenshot of a Mobile Recipe Page](./screenshot/recipe3.png)
+![Screenshot of the Odin Recipe Homepage](./screenshots/homepage1.png)
+![Screenshot of the Resized Odin Recipe Homepage](./screenshots/homepage2.png)
+![Screenshot of a Recipe Page](./screenshots/recipe1.png)
+![Screenshot of a Resized Recipe Page](./screenshots/recipe2.png)
+![Screenshot of a Mobile Recipe Page](./screenshots/recipe3.png)
 
 ---
 
